@@ -1,0 +1,38 @@
+==== bb_2025-06-09_events.csv ====
+timestamp_local,action,duration,cause,modemErr,rat,raw_line
+2025-06-09T22:28:33+07:00,ST [clm] disconnect,88,kNoError,145,2,"22:28:33 +0700 ST [clm] disconnect: duration=88;cause=kNoError;modemErr=145;rat=2"
+2025-06-09T23:50:15+07:00,ST [clm] disconnect,6,kNoError,145,2,"23:50:15 +0700 ST [clm] disconnect: duration=6;cause=kNoError;modemErr=145;rat=2"
+2025-06-09T09:40:50+07:00,ST [clm] disconnect,0,kUserBusy,146,2,"9:40:50 +0700 ST [clm] disconnect: duration=0;cause=kUserBusy;modemErr=146;rat=2"
+
+
+==== REPORT_bb_2025-06-09.txt ====
+{
+  "file": "log-bb-2025-06-09-stats.plist",
+  "hashes": {
+    "md5": "b59096ec788e7ae09d447f5a28cead76",
+    "sha256": "9dac1275b7066dad634f9ba0d5a232f52b3b986bdf4c3ca68f5abce6e633e6e4"
+  },
+  "identifiers": {
+    "IncidentIdentifier": "0F41A1FA-00C6-4DBA-9E26-959A4EDA735F",
+    "AP": "22F76",
+    "BB": "5.51.03",
+    "Machine": "iPhone13,1",
+    "bug_type": "195",
+    "os_version": "iPhone OS 18.5 (22F76)"
+  },
+  "timeline_rows": 3,
+  "suspicion_flags": [
+    "disconnect_without_error",
+    "zero_duration_disconnect",
+    "repeated_disconnect_within_2h"
+  ],
+  "extracted_ids": {
+    "IncidentIdentifier": "0F41A1FA-00C6-4DBA-9E26-959A4EDA735F",
+    "SysInfoCrashReporterKey": "d0cc51c9f68453b5fbd99a25033b927fc838473e",
+    "system_ID": null,
+    "UUID_hits": [],
+    "Session_hits": [],
+    "PID_hits": []
+  },
+  "keyword_hits": []
+}

@@ -1,0 +1,4 @@
+timestamp,event
+22:28:33 +0700,ST [clm] disconnect: duration=88;cause=kNoError;modemErr=145;rat=2
+23:50:15 +0700,ST [clm] disconnect: duration=6;cause=kNoError;modemErr=145;rat=2
+9:40:50 +0700,ST [clm] disconnect: duration=0;cause=kUserBusy;modemErr=146;rat=2
